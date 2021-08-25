@@ -1,0 +1,21 @@
+Recap:
+
+modifying an element's contents with  innerHTML  and  textContent
+
+adding and removing CSS classes with  classList
+
+modifying styles directly with the  style  property
+
+setting attributes with  setAttribute()
+
+creating new elements with  createElement()  and adding them to the DOM with  appendChild()
+
+
+Replacing and removing elements
+DOM elements also have methods allowing their replacement and/or removal:  replaceChild()  and  removeChild() .  
+Both methods call on the parent of the element you wish to remove, but you can cheat a bit and use  
+myElement.parentElement.removeChild(myElement)  for example.
+
+For more information about any of the methods described here, both the MDN and W3Schools have great reference material!
+https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
+https://www.w3schools.com/js/js_htmldom_methods.asp

@@ -1,0 +1,23 @@
+Recap:
+
+Use the following methods for accessing the DOM:
+
+getElementsByTagName()
+
+getElementsByClassName()
+
+getElementById()
+
+querySelector and querySelectorAll()
+
+The DOM — one big family
+As we discussed in the previous chapter, the DOM has a tree structure.  
+In fact, it is a family tree structure, defining the relationships between elements. 
+There are DOM methods and properties which allow us to use these family relationships to navigate and select elements.  
+Here are a few:
+
+element.children  — an  HTMLCollection  containing all child elements of element
+
+element.parentElement  — element's parent element (any given element can only have up to one parent)
+
+element.nextElementSibling  +  element.previousElementSibling  — these allow us to iterate through a given level (between list items, for example)

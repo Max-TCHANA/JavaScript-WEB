@@ -1,0 +1,7 @@
+Recap:
+
+we covered adding click event listeners to buttons to react to user clicks.  
+Of course, there are many other events we can react to.
+
+For a full list of DOM events, see the W3Schools reference.
+https://www.w3schools.com/jsref/dom_obj_event.asp

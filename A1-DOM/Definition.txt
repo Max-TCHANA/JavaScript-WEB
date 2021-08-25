@@ -1,0 +1,13 @@
+A web page is a document. 
+It's a document that can be displayed either in a browser window or as the source code.
+
+DOM
+In order to modify this document, we use an object-oriented representation of it called the Document Object Model, or DOM.
+The DOM is an interface for HTML documents. 
+Basically, the DOM is a representation of a document which we can use to manipulate the document's structure, styles, and content using JavaScript.
+
+The DOM has a tree-like structure: starting with the root element (the  <html>  tag), each child element branches out.  
+Typically, the root element is a parent to two child elements:  <head>  and  <body> .  
+The  <body>  tag is then parent to any elements within it — paragraphs, links, buttons, forms etc.  
+Those child elements can then have children of their own: 
+a form will have labels and inputs, an article can have a heading, text content, links, etc.
