@@ -1,0 +1,14 @@
+Recap:
+we covered the following techniques for user input validation:
+
+during input with the input event,
+
+after input is complete with the blur event,
+
+HTML constraints such as required or pattern.
+
+Of course, you can mix and match as many of these as you need.  
+You can also add validation to the submit listener, giving a form one last check before submitting it.  
+Front-end validation can only go so far, and servers must do their own validation too, 
+to make sure that the incoming data is not harmful in any way. 
+Using JavaScript to validate forms before sending them is useful.

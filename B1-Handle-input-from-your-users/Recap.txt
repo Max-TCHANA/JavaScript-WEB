@@ -1,0 +1,20 @@
+Recap:
+
+handling text input with the  value  property
+
+controlling what happens when a form is submitted with  preventDefault()
+
+capturing input from multiple choice inputs with the  change  event
+
+*******************
+
+Other useful input events
+Form inputs can emit some very interesting and useful events.  
+here are a few other event examples:
+
+input  — similar to the  change  event, the  input  event is emitted every time the user changes the input in a text field, 
+and the  $event.target.value  property contains the current content of the text field
+
+focus  /  blur  — when a user clicks or tabs to a form control and it becomes the active control, 
+its  focus  event is emitted; when a user clicks or tabs away from a form control and it is no longer the active control, 
+its  blur  event is emitted.

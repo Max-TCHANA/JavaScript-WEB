@@ -1,0 +1,12 @@
+Recap
+
+In this chapter, we covered how to prepare, build, and send an HTTP GET request with AJAX, using an  XMLHttpRequest object.
+
+Saving data in the browser
+Modern browsers allow us to temporarily store small amounts of data for later use.  
+There are two main methods: local storage and session storage.  
+Session storage is emptied when the browser window is closed, whereas local storage remains untouched.  
+While we don't need it for the app we have built here, it can come in handy in more complex apps.
+
+For more information about web storage, check out the W3Schools article on the subject.
+https://www.w3schools.com/html/html5_webstorage.asp

@@ -1,0 +1,24 @@
+const postsSection = document.getElementById('posts-section');
+
+let postRequest = new XMLHttpRequest();
+postRequest.open('GET', 'http://my-blog-api.com/post?id=4acc432mij');
+
+postRequest.onreadystatechange = () => {
+   if (postRequest.readyState === 4) {
+       let newArticle = document.createElement('article');
+       let newTitle = document.createElement('h2');
+       let newContent = document.createElement('p');
+       
+       const response = JSON.parse(postRequest.response);
+       
+       newTitle.textContent = response['title'];
+       newContent.textContent = response['content'];
+       
+       newArticle.appendChild(newTitle);
+       newArticle.appendChild(newContent);
+       
+       postsSection.appendChild(newArticle);
+   } 
+};
+
+postRequest.send();

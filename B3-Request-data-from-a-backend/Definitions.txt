@@ -1,0 +1,19 @@
+HTTP
+HTTP is a protocol which allows us to send information around the web. 
+HTTP requests come in different flavors, using different verbs (GET, POST, PUT, and DELETE are the four most common).  
+A GET request generally means we would like the server to send us some data.
+
+AJAX
+AJAX stands for Asynchronous JavaScript And XML.
+Basically, it is a system that allows us to send requests and handle the responses from within our JavaScript code.  
+For example, when you leave a comment on a blog post, when you send or receive e-mail on a webmail service like Gmail, 
+or when a webpage updates itself without refreshing, it is often using AJAX to do so. 
+
+API
+API stands for Application Programming Interface. 
+Many companies and services provide APIs which will react in specific ways when we send them HTTP requests. 
+
+
+JSON
+JSON, or JavaScript Object Notation, is a way of representing and handling data as a JavaScript object. 
+It is extremely useful for sending and receiving data over the internet, as it makes it easy to deal with structured data.
