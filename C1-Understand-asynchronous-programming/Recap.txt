@@ -1,0 +1,9 @@
+Recap
+
+We covered the concept of asynchronous code: what it is, and how we handle it using three main techniques:
+
+callbacks: the most old-fashioned technique, but still an essential one to recognize and understand,
+
+promises: possibly the most widely used technique today, they can seem complicated but are absolute life savers,
+
+async/await: an easier-to-read way to handle promise manipulation.

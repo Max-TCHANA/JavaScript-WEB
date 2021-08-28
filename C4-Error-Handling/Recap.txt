@@ -1,0 +1,8 @@
+
+Recap:
+
+we had a look at how to approach error handling. In particular, we saw:
+
+how to use simple checks to prevent functions from failing,
+
+how to use try...catch blocks with nested async/await to handle errors gracefully.

@@ -1,0 +1,11 @@
+Recap:
+
+we looked at sending POST requests. We looked at how to:
+
+build and prepare a POST request,
+
+add the necessary header,
+
+send data with our request,
+
+use promises and async/await to make our request, handle the response and catch any errors.

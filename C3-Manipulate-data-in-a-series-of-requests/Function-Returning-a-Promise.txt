@@ -1,0 +1,31 @@
+function makeARequest(verb, url, data) {
+    return new Promise((resolve, reject) => {
+        
+       // build request object with function arguments
+       let request = new XMLHttpRequest;
+       request.open(verb, url);
+       
+       // if server responds with error, reject with error
+       // otherwise, respond with response as JSON object
+       request.onreadystatechange = () => {
+           if (request.readyState === 4) {
+               if (request.status !== 200) {
+                   reject(request.status);
+               }
+               else {
+                   resolve(JSON.parse(request.response));
+               }
+           }
+       }
+       
+       // if request is POST, send request with data
+       // otherwise, just send request
+       if (verb === 'POST') {
+           request.setRequestHeader('Content-Type', 'application/json');
+           request.send(JSON.stringify(data));
+       }
+       else {
+           request.send();
+       }
+    });
+}

@@ -1,0 +1,10 @@
+
+Recap:
+
+we looked at how to use async/await to handle parallel and serial HTTP requests. 
+We looked at how  Promise.all , along with destructuring syntax, 
+is a powerful tool for leveraging multiple simultaneous AJAX requests.
+
+What we did not do correctly, however, is error handling. 
+We have a reject() call in our promise, but no way of handling any errors returned by the server. 
+There are also other potential bugs because we have not really thought about what could go wrong.
